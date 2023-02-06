@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razi-signup</title>
+    <link rel="icon" href="https://media.istockphoto.com/id/1197901679/vector/open-book-color-vector-template-icon.jpg?s=612x612&w=0&k=20&c=XdFcmrOHtGYGH7ab4YplsEpPzaLS4WUeeO6Nr6aaols=">
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap">
+<link rel="stylesheet" href="26.css">
+<style>
+    /* css reset */
+    body {
+        color: wheat;
+        margin: 0ox;
+        padding: 0px;
+        /* background: url('./abs.jpg'); */
+        font-family: 'Baloo Bhai 2', cursive;
+        background-color: rgb(49, 49, 74);
+    }
+
+    .left {
+        /* border: 2px solid rgb(25, 50, 120); */
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 23px;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .left img {
+        width: 63px;
+    }
+
+    .mid {
+        border: 0px solid green;
+        display: block;
+        width: 48%;
+        margin: 29px auto;
+
+    }
+
+    .right {
+        display: inline-block;
+        /* border: 2px solid yellow; */
+        position: absolute;
+        right: 34px;
+        top: 33px;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .navbar li a {
+        color: bisque;
+        text-decoration: none;
+        padding: 34px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .btn {
+        margin: 0px 8px;
+        color: white;
+        background-color: black;
+        padding: 8px 14px;
+        border: 2px solid grey;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(87, 84, 84);
+    }
+
+    .total {
+        margin: auto;
+    }
+
+    .container {
+        border: 2px solid wheat;
+        margin: 89px 58px;
+        padding: 30px;
+        width: 27%;
+        border-radius: 69px;
+    }
+
+    .form-group input {
+        font-size: 16px;
+        text-align: center;
+        display: block;
+        width: 330px;
+        border-radius: 6px;
+        padding: 2px;
+        border: 2px solid black;
+        margin: 13px auto;
+        font-family: 'Baloo Bhai 2', cursive;
+
+
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 90px;
+        margin: 18px auto;
+    }
+
+    .para {
+        /* right: 30px; */
+        float: right;
+        border: 2px solid wheat;
+        margin: 89px 58px;
+        padding: 30px;
+        width: 27%;
+        border-radius: 69px;
+        font-family: 'Baloo Bhai 2', cursive;
+
+        font-size: 19px;
+    }
+
+    .pe {
+        text-align: center;
+    }
+
+    .chat {
+        padding: 10px 20px;
+        background-color: greenyellow;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        position: fixed;
+        bottom: 7px;
+        right: 12px;
+        height: 100px;
+        font-size: 23px;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- for logo -->
+            <img src="https://media.istockphoto.com/id/1197901679/vector/open-book-color-vector-template-icon.jpg?s=612x612&w=0&k=20&c=XdFcmrOHtGYGH7ab4YplsEpPzaLS4WUeeO6Nr6aaols="
+                alt="logo">
+            <div>AAMIR RAZI</div>
+        </div>
+        <div class="mid">
+            <!-- navbar -->
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Achiecments</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            <!-- this is mid  -->
+        </div>
+        <div class="right">
+            <!-- search -->
+            <button class="btn">call us</button><button class="btn">email us</button>
+        </div>
+    </header>
+    <div class="total">
+        <div class="container">
+            <h1>Sign Up Now</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <input type="number" name="" placeholder="Contact number">
+                </div>
+                <div class="form-group">
+                    <input type="date" name="" placeholder="D-O-B">
+                </div>
+                <div class="form-group">
+                    <input type="email" name="" placeholder="enter your email">
+                </div>
+                <div class="form-group">
+                    <input type="password" name="" placeholder="Password ">
+                </div>
+                <div align="center"><input type="radio" name="gender" value="male" />Male
+                    <input type="radio" name="gender" value="female" />Female
+                    <input type="radio" name="gender" value="other" />other
+                </div>
+
+                <button class="btn">submit</button>
+            </form>
+        </div>
+        <div class="para">
+            <div class="pe">DETAILS</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos suscipit perferendis tempore cumque nulla, recusandae eligendi beatae distinctio ipsa ab, consectetur excepturi laborum itaque necessitatibus nostrum assumenda ea, enim iusto esse voluptate id vitae? Dignissimos quam, maxime ea autem itaque molestias perspiciatis, corrupti quas commodi reprehenderit maiores quos necessitatibus vitae mollitia iure placeat tempora eum nobis accusamus ab. Consectetur molestiae dicta cumque sequi quasi voluptatibus tempora, ipsa quos totam.</div>
+        </div>
+    </div>
+    <a href="">
+        <button class="chat">Need help.Chat Here</button>
+    </a>
+
+</body>
+
+</html>
